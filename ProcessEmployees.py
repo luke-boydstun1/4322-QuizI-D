@@ -28,7 +28,7 @@ for line in data:
             " ",
             line[2],
             "Current Salary: $",
-            format(int(line[5]), ".2f"),
+            format(int(line[5]), ",.2f"),
         )
         key = str(line[1]) + str(line[2])
         dictionary[key] = int(line[5]) * 1.1
