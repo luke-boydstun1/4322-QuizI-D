@@ -41,4 +41,4 @@ print()
 # iternate through the dictionary and print out the key and value as per printout
 
 for key in dictionary:
-    print("CSR Name: ", key, "New Salary: $", format(dictionary[key], ".2f"))
+    print("CSR Name: ", key, "New Salary: $" + format(dictionary[key], ",.2f"))
